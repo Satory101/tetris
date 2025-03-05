@@ -1,0 +1,58 @@
+﻿  Tetris.cpp
+D:\C++\Tetris\Tetris\Tetris.cpp(17,17): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+D:\C++\Tetris\Tetris\Tetris.cpp(17,20): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+D:\C++\Tetris\Tetris\Tetris.cpp(129,5): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+D:\C++\Tetris\Tetris\Tetris.cpp(129,9): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+D:\C++\Tetris\Tetris\Tetris.cpp(129,10): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+D:\C++\Tetris\Tetris\Tetris.cpp(129,10): error C3646: push_back: неизвестный спецификатор переопределения
+D:\C++\Tetris\Tetris\Tetris.cpp(129,19): error C2059: синтаксическая ошибка: (
+D:\C++\Tetris\Tetris\Tetris.cpp(129,27): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(130,5): error C2059: синтаксическая ошибка: for
+D:\C++\Tetris\Tetris\Tetris.cpp(130,19): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(130,19): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(130,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+D:\C++\Tetris\Tetris\Tetris.cpp(130,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Tetris\Tetris\Tetris.cpp(130,34): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(130,37): error C2143: синтаксическая ошибка: отсутствие ";" перед "++"
+D:\C++\Tetris\Tetris\Tetris.cpp(130,36): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Tetris\Tetris\Tetris.cpp(130,39): error C2059: синтаксическая ошибка: )
+D:\C++\Tetris\Tetris\Tetris.cpp(131,30): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(132,5): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+D:\C++\Tetris\Tetris\Tetris.cpp(132,9): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+D:\C++\Tetris\Tetris\Tetris.cpp(132,10): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+D:\C++\Tetris\Tetris\Tetris.cpp(132,10): error C3646: push_back: неизвестный спецификатор переопределения
+D:\C++\Tetris\Tetris\Tetris.cpp(132,19): error C2059: синтаксическая ошибка: (
+D:\C++\Tetris\Tetris\Tetris.cpp(132,27): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(135,5): error C2059: синтаксическая ошибка: for
+D:\C++\Tetris\Tetris\Tetris.cpp(135,19): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(135,19): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(135,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+D:\C++\Tetris\Tetris\Tetris.cpp(135,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Tetris\Tetris\Tetris.cpp(135,35): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(135,38): error C2143: синтаксическая ошибка: отсутствие ";" перед "++"
+D:\C++\Tetris\Tetris\Tetris.cpp(135,37): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Tetris\Tetris\Tetris.cpp(135,40): error C2059: синтаксическая ошибка: )
+D:\C++\Tetris\Tetris\Tetris.cpp(137,28): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(139,5): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+D:\C++\Tetris\Tetris\Tetris.cpp(139,9): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+D:\C++\Tetris\Tetris\Tetris.cpp(139,10): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+D:\C++\Tetris\Tetris\Tetris.cpp(139,10): error C3646: clear: неизвестный спецификатор переопределения
+D:\C++\Tetris\Tetris\Tetris.cpp(139,15): error C2059: синтаксическая ошибка: (
+D:\C++\Tetris\Tetris\Tetris.cpp(139,17): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(140,5): error C2059: синтаксическая ошибка: for
+D:\C++\Tetris\Tetris\Tetris.cpp(140,19): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(140,19): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(140,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+D:\C++\Tetris\Tetris\Tetris.cpp(140,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Tetris\Tetris\Tetris.cpp(140,30): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(140,33): error C2143: синтаксическая ошибка: отсутствие ";" перед "++"
+D:\C++\Tetris\Tetris\Tetris.cpp(140,32): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Tetris\Tetris\Tetris.cpp(140,35): error C2059: синтаксическая ошибка: )
+D:\C++\Tetris\Tetris\Tetris.cpp(141,31): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(142,5): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+D:\C++\Tetris\Tetris\Tetris.cpp(142,8): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+D:\C++\Tetris\Tetris\Tetris.cpp(142,9): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+D:\C++\Tetris\Tetris\Tetris.cpp(142,9): error C3646: push_back: неизвестный спецификатор переопределения
+D:\C++\Tetris\Tetris\Tetris.cpp(142,18): error C2059: синтаксическая ошибка: (
+D:\C++\Tetris\Tetris\Tetris.cpp(142,24): error C2238: непредвиденные лексемы перед ";"
+D:\C++\Tetris\Tetris\Tetris.cpp(222,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
