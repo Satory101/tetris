@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <conio.h>
 #include <vector>
+#include <math.h>
 
 // анимация удаления
 // рефакторинг кода
@@ -25,6 +26,7 @@ const int HEIGHT = 20 + 1;
 const int BORDER = 1;
 const int EMPTY = 0;
 const int BLOCK = 2;
+const float PI = 3.1415;
 
 const int BLOCKS_IN_LINE = 10;
 
@@ -142,6 +144,39 @@ public:
        
 
 }
+    void rotateR() {
+     
+      
+       
+       
+        for (int i = 0; i < vec.size() ; i++)
+        {
+            int x = - (vec[i].y - vec[1].y) + vec[1].x;
+            int y = (vec[i].x - vec[1].x) + vec[1].y;
+           
+            vec[i].x = x;
+            vec[i].y = y;
+        }
+      
+
+    }
+
+    void rotateL() {
+
+
+
+
+        for (int i = 0; i < vec.size(); i++)
+        {
+            int x = (vec[i].y - vec[1].y) + vec[1].x;
+            int y = -(vec[i].x - vec[1].x) + vec[1].y;
+         
+            vec[i].x = x;
+            vec[i].y = y;
+        }
+
+
+    }
 
 };
 class Map {
@@ -354,6 +389,19 @@ public:
                 if (map.isCollision(fig)) {
                     fig.moveRight();
                 }
+                break;
+
+            case 72:
+                fig.hide();
+                fig.rotateR();
+
+                    break;
+
+
+            case 32:
+                fig.hide();
+                fig.rotateL();
+
                 break;
             }
 
