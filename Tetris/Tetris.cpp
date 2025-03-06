@@ -138,7 +138,7 @@ public:
 
     void spawn() {
         vec.clear();
-        int r =   rand() % 3;
+        int r =   rand() % 7;
         switch (r) {
         case 0:
             this->push(4, 0);
@@ -161,6 +161,33 @@ public:
             this->push(6, 1);
             break;
 
+        case 3:
+            this->push(4, 0);
+            this->push(5, 0);
+            this->push(6, 0);
+            this->push(4, 1);
+            break;
+
+        case 4:
+            this->push(4, 0);
+            this->push(5, 0);
+            this->push(5, 1);
+            this->push(6, 1);
+            break;
+
+        case 5:
+            this->push(4, 1);
+            this->push(5, 1);
+            this->push(5, 0);
+            this->push(6, 0);
+            break;
+
+        case 6:
+            this->push(4, 1);
+            this->push(5, 1);
+            this->push(6, 1);
+            this->push(5, 0);
+            break;
         }
        
 
@@ -379,6 +406,9 @@ private:
 public:
     Game() {
     }
+
+    
+
     void icrScore(int lines) {
         switch (lines) {
         case 1:
@@ -400,6 +430,12 @@ public:
     void showScore() {
         gotoxy(50, 0);
         cout << "score: " << score;
+    }
+
+    void gameOver() {
+        gotoxy(50, 0);
+        cout << "Game Over";
+        system("pause");
     }
 
     int run() {
@@ -453,6 +489,15 @@ public:
 
 
                     fig.spawn();
+                    if (map.isCollision(fig)) {
+                        fig.show();
+                        this->gameOver();
+                        return 0;
+
+                    }
+
+                    
+
                 }
 
                 fig.show();
