@@ -1,8 +1,2 @@
-﻿  Tetris.cpp
-D:\C++\Tetris\Tetris\Tetris.cpp(24,17): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
-D:\C++\Tetris\Tetris\Tetris.cpp(24,20): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
-D:\C++\Tetris\Tetris\Tetris.cpp(35,18): warning C4305: инициализация: усечение из "double" в "float"
-D:\C++\Tetris\Tetris\Tetris.cpp(67,24): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-D:\C++\Tetris\Tetris\Tetris.cpp(303,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\C++\Tetris\Tetris\Tetris.cpp(340,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-  Tetris.vcxproj -> D:\C++\Tetris\x64\Debug\Tetris.exe
+﻿  Game.cpp
+  Tetris.vcxproj -> D:\C++\Tetris2\x64\Debug\Tetris.exe
